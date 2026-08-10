@@ -94,6 +94,23 @@ body {
   color: var(--nav-highlight) !important;
 }
 
+/* Mobile drawer: keep the brand palette and restore breathing room in submenus. */
+@media screen and (max-width: 76.234375em) {
+  .md-nav--primary .md-nav__title[for="__drawer"] {
+    color: var(--green-ink);
+    background: var(--green-brand);
+  }
+
+  .md-nav--primary .md-nav__title[for="__drawer"] .md-nav__button {
+    color: var(--green-ink);
+  }
+
+  .md-nav--primary > .md-nav__list > .md-nav__item > .md-nav > .md-nav__list > .md-nav__item > .md-nav__link {
+    padding-right: 1.2rem;
+    padding-left: 1.2rem;
+  }
+}
+
 .md-nav--secondary > .md-nav__title {
   position: sticky;
   top: 0;
