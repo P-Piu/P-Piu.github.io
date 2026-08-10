@@ -1,0 +1,53 @@
+site_name: P-Piu 的光合作用空间
+site_url: https://P-Piu.github.io/
+site_description: 关于生活、学习与创造的个人记录
+site_author: 光明酸奶
+
+theme:
+  name: material
+  language: zh
+  icon:
+    logo: material/home
+  features:
+    - navigation.sections
+    - navigation.indexes
+    - navigation.top
+    - toc.follow
+  palette:
+    scheme: default
+    primary: green
+    accent: green
+
+nav:
+  - 首页: index.md
+  - 随想:
+      - essays/index.md
+      - 日常: essays/life.md
+      - 思考: essays/thoughts.md
+  - 私藏:
+      - media/index.md
+      - 书籍: media/books.md
+      - 影视: media/films.md
+      - 音乐: media/music.md
+  - 求知:
+      - learning/index.md
+      - 课程: learning/courses.md
+      - 技能: learning/technology.md
+  - 造物: projects/index.md
+  - 年轮: growth/index.md
+  - 友链: friends.md
+  - 关于: about/index.md
+
+extra_css:
+  - stylesheets/extra.css
+
+extra_javascript:
+  - javascripts/sidebar-shadow.js
+
+markdown_extensions:
+  - attr_list
+  - md_in_html
+  - toc:
+      permalink: true
+
+copyright: Copyright &copy; 光明酸奶
