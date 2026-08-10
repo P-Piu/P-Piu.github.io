@@ -363,6 +363,12 @@ body {
   letter-spacing: -0.055em;
 }
 
+.home-title-space,
+.hero-line span {
+  display: inline-block;
+  white-space: nowrap;
+}
+
 .hero-line {
   margin: 0 0 0.8rem;
   color: var(--green-ink);
@@ -486,7 +492,19 @@ body {
   }
 
   .home-hero {
-    padding: 3.2rem 0 2.8rem;
+    padding: 2.6rem 0 2.4rem;
+  }
+
+  .md-typeset .home-hero h1 {
+    font-size: clamp(1.75rem, 8.6vw, 2.15rem);
+    line-height: 1.18;
+    letter-spacing: -0.045em;
+    white-space: nowrap;
+  }
+
+  .hero-line {
+    font-size: 1rem;
+    line-height: 1.65;
   }
 
   .home-grid {
