@@ -5,8 +5,8 @@ hide:
 ---
 
 <section class="home-hero">
-  <h1>P-Piu 的光合作用空间</h1>
-  <p class="hero-line">愿这里像一场缓慢的光合作用，为你我积攒一点养分</p>
+  <h1>P-Piu 的<span class="home-title-space">光合作用空间</span></h1>
+  <p class="hero-line">愿这里像一场缓慢的光合作用，<span>为你我积攒一点养分</span></p>
   <p class="hero-note">另外，祝你天天开心，一切都好</p>
 </section>
 
