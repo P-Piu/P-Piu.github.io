@@ -6,6 +6,7 @@ site_author: 光明酸奶
 theme:
   name: material
   language: zh
+  favicon: assets/images/site-avatar.jpg
   icon:
     logo: material/home
   features:
