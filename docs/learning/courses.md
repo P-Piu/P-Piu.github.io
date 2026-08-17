@@ -7,20 +7,23 @@
 <div class="article-index">
   <a class="article-index-item" href="military-training/">
     <span class="article-index-meta">
+      <span class="article-index-date">2.0 学分</span>
       <span class="article-index-action">阅读全文 →</span>
     </span>
-    <span class="article-index-title">军训 <span class="article-index-credit">（2.0 学分）</span></span>
+    <span class="article-index-title">军训</span>
   </a>
   <a class="article-index-item" href="advanced-c-programming/">
     <span class="article-index-meta">
+      <span class="article-index-date">4.0 学分</span>
       <span class="article-index-action">阅读全文 →</span>
     </span>
-    <span class="article-index-title">C程序设计基础及实验（C尖） <span class="article-index-credit">（4.0 学分）</span></span>
+    <span class="article-index-title">C程序设计基础及实验（C尖）</span>
   </a>
   <a class="article-index-item" href="engineering-graphics/">
     <span class="article-index-meta">
+      <span class="article-index-date">2.5 学分</span>
       <span class="article-index-action">阅读全文 →</span>
     </span>
-    <span class="article-index-title">工程图学 <span class="article-index-credit">（2.5 学分）</span></span>
+    <span class="article-index-title">工程图学</span>
   </a>
 </div>
