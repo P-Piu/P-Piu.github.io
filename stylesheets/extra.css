@@ -232,6 +232,12 @@ body {
   line-height: 1.45;
 }
 
+.article-index-credit {
+  color: #687169;
+  font-size: inherit;
+  font-weight: inherit;
+}
+
 .article-index-summary {
   margin-top: 0.45rem;
   color: var(--ink-soft);
