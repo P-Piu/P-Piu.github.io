@@ -258,6 +258,13 @@ body {
   line-height: 1.55;
 }
 
+.md-typeset .course-meta {
+  margin: 0 0 1.25rem;
+  color: #687169;
+  font-size: var(--text-sm);
+  line-height: 1.55;
+}
+
 .growth-timeline {
   position: relative;
   margin-top: 1.4rem;
