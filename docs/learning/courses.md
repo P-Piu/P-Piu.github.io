@@ -13,13 +13,13 @@
   </a>
   <a class="article-index-item" href="advanced-c-programming/">
     <span class="article-index-title-row">
-      <span class="article-index-title">C程序设计基础及实验（C尖） <span class="article-index-credit">4.0 学分</span></span>
+      <span class="article-index-title">C程序设计基础及实验（C尖） - 张引 <span class="article-index-credit">4.0 学分</span></span>
       <span class="article-index-action">阅读全文 →</span>
     </span>
   </a>
   <a class="article-index-item" href="engineering-graphics/">
     <span class="article-index-title-row">
-      <span class="article-index-title">工程图学 <span class="article-index-credit">2.5 学分</span></span>
+      <span class="article-index-title">工程图学 - 高一聪 <span class="article-index-credit">2.5 学分</span></span>
       <span class="article-index-action">阅读全文 →</span>
     </span>
   </a>
