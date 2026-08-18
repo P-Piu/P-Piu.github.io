@@ -212,6 +212,13 @@ body {
   display: block;
 }
 
+.article-index-title-row {
+  display: flex;
+  gap: 1rem;
+  align-items: baseline;
+  justify-content: space-between;
+}
+
 .article-index-meta {
   display: flex;
   gap: 1rem;
@@ -225,11 +232,21 @@ body {
 }
 
 .article-index-title {
+  min-width: 0;
+  flex: 1 1 auto;
   margin-top: 0.45rem;
   color: var(--green-ink);
   font-size: var(--text-md);
   font-weight: 600;
   line-height: 1.45;
+}
+
+.article-index-credit {
+  margin-left: 0.55rem;
+  color: #687169;
+  font-size: var(--text-xs);
+  font-weight: 400;
+  white-space: nowrap;
 }
 
 .article-index-summary {
@@ -240,10 +257,17 @@ body {
 }
 
 .article-index-action {
+  flex: 0 0 auto;
   color: var(--green-accent);
   font-size: var(--text-xs);
   font-weight: 600;
   white-space: nowrap;
+}
+
+@media screen and (max-width: 44rem) {
+  .article-index-title-row {
+    gap: 0.65rem;
+  }
 }
 
 .article-index-summary + .article-index-action {
