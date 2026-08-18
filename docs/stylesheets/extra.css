@@ -27,28 +27,22 @@ body {
 .sunflower-widget {
   position: fixed;
   z-index: 4;
-  left: 1.1rem;
-  bottom: 1rem;
-  width: clamp(5.75rem, 11vw, 9rem);
+  left: 1.65rem;
+  bottom: 1.35rem;
+  width: clamp(4.4rem, 8vw, 6.7rem);
   pointer-events: none;
-  transform-origin: 50% 100%;
-  animation: sunflower-sway 8s ease-in-out infinite;
 }
 
 .sunflower-button {
+  position: relative;
   display: block;
   width: 100%;
+  aspect-ratio: 525 / 940;
   padding: 0;
   border: 0;
   background: transparent;
   cursor: pointer;
   pointer-events: auto;
-  transition: transform 220ms ease;
-}
-
-.sunflower-button:hover,
-.sunflower-button:focus-visible {
-  transform: translateY(-0.15rem) scale(1.025);
 }
 
 .sunflower-button:focus-visible {
@@ -56,66 +50,105 @@ body {
   outline-offset: 0.25rem;
 }
 
-.sunflower-button img {
+.sunflower-layer {
+  position: absolute;
+  inset: 0;
   display: block;
   width: 100%;
-  height: auto;
+  height: 100%;
+  object-fit: contain;
+  pointer-events: none;
 }
 
-.sunflower-widget.is-tapped {
-  animation: sunflower-tap 560ms ease-out;
+.sunflower-base {
+  clip-path: inset(57% 0 0);
 }
 
-@keyframes sunflower-sway {
+.sunflower-leaves {
+  clip-path: inset(43% 0 30%);
+  transform-origin: 52% 72%;
+  animation: sunflower-leaf-follow 5.2s ease-in-out infinite;
+}
+
+.sunflower-head {
+  clip-path: inset(0 0 49%);
+  transform-origin: 51% 93%;
+  animation: sunflower-head-sway 5.2s ease-in-out infinite;
+  transition: transform 260ms ease;
+}
+
+.sunflower-button:hover .sunflower-head,
+.sunflower-button:focus-visible .sunflower-head {
+  animation: none;
+  transform: rotate(-0.6deg) translateY(-0.14rem) scale(1.025);
+}
+
+.sunflower-widget.is-tapped .sunflower-head {
+  animation: sunflower-head-tap 560ms ease-out;
+}
+
+@keyframes sunflower-head-sway {
   0%,
   100% {
-    transform: rotate(-1deg) translateY(0);
+    transform: rotate(-1.4deg) translateY(0);
   }
 
   50% {
-    transform: rotate(1deg) translateY(-0.1rem);
+    transform: rotate(1.1deg) translateY(-0.07rem);
   }
 }
 
-@keyframes sunflower-tap {
+@keyframes sunflower-leaf-follow {
   0%,
   100% {
-    transform: rotate(0) translateY(0);
+    transform: rotate(-0.35deg);
+  }
+
+  50% {
+    transform: rotate(0.45deg) translateY(-0.03rem);
+  }
+}
+
+@keyframes sunflower-head-tap {
+  0%,
+  100% {
+    transform: rotate(-1.4deg) translateY(0);
   }
 
   35% {
-    transform: rotate(-3deg) translateY(-0.3rem);
+    transform: rotate(-3deg) translateY(-0.18rem);
   }
 
   70% {
-    transform: rotate(2deg) translateY(0.05rem);
+    transform: rotate(1.4deg) translateY(0.03rem);
   }
 }
 
 @media (prefers-reduced-motion: reduce) {
-  .sunflower-widget,
-  .sunflower-widget.is-tapped {
+  .sunflower-leaves,
+  .sunflower-head,
+  .sunflower-widget.is-tapped .sunflower-head {
     animation: none;
   }
 
-  .sunflower-button {
+  .sunflower-head {
     transition: none;
   }
 }
 
 @media screen and (max-width: 44rem) {
   .sunflower-widget {
-    left: 0.6rem;
-    bottom: 0.65rem;
-    width: 5.25rem;
+    left: 0.85rem;
+    bottom: 0.8rem;
+    width: 4rem;
   }
 }
 
 @media screen and (max-width: 30rem) {
   .sunflower-widget {
-    left: 0.45rem;
-    bottom: 0.5rem;
-    width: 4.35rem;
+    left: 0.7rem;
+    bottom: 0.65rem;
+    width: 3.4rem;
   }
 }
 
