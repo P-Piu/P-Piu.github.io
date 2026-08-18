@@ -4,7 +4,7 @@
 
 ## 大一上（秋冬）
 
-<div class="article-index">
+<div class="article-index course-index">
   <a class="article-index-item" href="military-training/">
     <span class="article-index-title-row">
       <span class="article-index-title">军训 <span class="article-index-credit">2.0 学分</span></span>

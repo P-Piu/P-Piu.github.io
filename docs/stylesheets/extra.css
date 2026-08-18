@@ -215,7 +215,7 @@ body {
 .article-index-title-row {
   display: flex;
   gap: 1rem;
-  align-items: baseline;
+  align-items: center;
   justify-content: space-between;
 }
 
@@ -239,6 +239,14 @@ body {
   font-size: var(--text-md);
   font-weight: 600;
   line-height: 1.45;
+}
+
+.course-index .article-index-item {
+  padding: 0.9rem 0;
+}
+
+.course-index .article-index-title {
+  margin-top: 0;
 }
 
 .article-index-credit {
