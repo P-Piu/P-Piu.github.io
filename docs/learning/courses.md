@@ -23,4 +23,10 @@
       <span class="article-index-action">阅读全文 →</span>
     </span>
   </a>
+  <a class="article-index-item" href="calculus-a1-bwh/">
+    <span class="article-index-title-row">
+      <span class="article-index-title">微积分（甲）Ⅰ - 毕惟红 <span class="article-index-credit">5.0 学分</span></span>
+      <span class="article-index-action">阅读全文 →</span>
+    </span>
+  </a>
 </div>
