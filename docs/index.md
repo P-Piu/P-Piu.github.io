@@ -75,3 +75,9 @@ hide:
 </div>
 
 <p class="growth-status">正在进行光合作用，有机物积累中……</p>
+
+<div class="sunflower-widget" data-sunflower-widget>
+  <button class="sunflower-button" type="button" aria-label="小葵">
+    <img src="assets/images/sunflower-widget.png" alt="一盆手绘向日葵">
+  </button>
+</div>

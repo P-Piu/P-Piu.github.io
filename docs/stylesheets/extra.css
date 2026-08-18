@@ -24,6 +24,101 @@ body {
   color: #243029;
 }
 
+.sunflower-widget {
+  position: fixed;
+  z-index: 4;
+  left: 1.1rem;
+  bottom: 1rem;
+  width: clamp(5.75rem, 11vw, 9rem);
+  pointer-events: none;
+  transform-origin: 50% 100%;
+  animation: sunflower-sway 8s ease-in-out infinite;
+}
+
+.sunflower-button {
+  display: block;
+  width: 100%;
+  padding: 0;
+  border: 0;
+  background: transparent;
+  cursor: pointer;
+  pointer-events: auto;
+  transition: transform 220ms ease;
+}
+
+.sunflower-button:hover,
+.sunflower-button:focus-visible {
+  transform: translateY(-0.15rem) scale(1.025);
+}
+
+.sunflower-button:focus-visible {
+  outline: 2px solid var(--green-accent);
+  outline-offset: 0.25rem;
+}
+
+.sunflower-button img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.sunflower-widget.is-tapped {
+  animation: sunflower-tap 560ms ease-out;
+}
+
+@keyframes sunflower-sway {
+  0%,
+  100% {
+    transform: rotate(-1deg) translateY(0);
+  }
+
+  50% {
+    transform: rotate(1deg) translateY(-0.1rem);
+  }
+}
+
+@keyframes sunflower-tap {
+  0%,
+  100% {
+    transform: rotate(0) translateY(0);
+  }
+
+  35% {
+    transform: rotate(-3deg) translateY(-0.3rem);
+  }
+
+  70% {
+    transform: rotate(2deg) translateY(0.05rem);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .sunflower-widget,
+  .sunflower-widget.is-tapped {
+    animation: none;
+  }
+
+  .sunflower-button {
+    transition: none;
+  }
+}
+
+@media screen and (max-width: 44rem) {
+  .sunflower-widget {
+    left: 0.6rem;
+    bottom: 0.65rem;
+    width: 5.25rem;
+  }
+}
+
+@media screen and (max-width: 30rem) {
+  .sunflower-widget {
+    left: 0.45rem;
+    bottom: 0.5rem;
+    width: 4.35rem;
+  }
+}
+
 .md-header {
   color: var(--green-ink);
   background-color: var(--green-brand);
