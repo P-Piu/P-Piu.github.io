@@ -29,4 +29,10 @@
       <span class="article-index-action">阅读全文 →</span>
     </span>
   </a>
+  <a class="article-index-item" href="linear-algebra-a-dong-zhe/">
+    <span class="article-index-title-row">
+      <span class="article-index-title">线性代数（甲） - 董浙 <span class="article-index-credit">3.5 学分</span></span>
+      <span class="article-index-action">阅读全文 →</span>
+    </span>
+  </a>
 </div>
