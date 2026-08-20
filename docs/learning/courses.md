@@ -35,11 +35,6 @@
       <span class="article-index-action">阅读全文 →</span>
     </span>
   </a>
-</div>
-
-## 大一学年
-
-<div class="article-index course-index">
   <a class="article-index-item" href="college-english-3-4/">
     <span class="article-index-title-row">
       <span class="article-index-title">大学英语Ⅲ - 袁靖 / 大学英语Ⅳ - 薛莉娅</span>
