@@ -44,7 +44,6 @@ extra_css:
 
 extra_javascript:
   - javascripts/sidebar-shadow.js
-  - javascripts/sunflower.js
 
 markdown_extensions:
   - attr_list
