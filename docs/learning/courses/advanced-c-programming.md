@@ -48,4 +48,25 @@ C 程是我认为体验感挺不错的课程。并且后续嵌入式相关的代
 
 ## 学习资料
 
-参考教材：《C 语言程序设计（第 4 版）》，何钦铭、颜晖
+以下是我在学习期间的个人整理，难免有疏漏，建议结合课本和当学期的课程要求使用。
+
+### 个人整理
+
+- [C 程序设计理论知识笔记（PDF，约 4.1 MB）](../../assets/resources/courses/c-programming/c-programming-theory-notes.pdf)
+- [C 程序设计个人纠错记录（PDF，约 4.6 MB）](../../assets/resources/courses/c-programming/c-programming-debugging-notes.pdf)
+
+### 练习源码
+
+压缩包只保留 `.c` 源码，不包含可执行文件。
+
+- [C 程序设计平时 PTA 作业源码（104 份，ZIP）](../../assets/resources/courses/c-programming/c-programming-pta-assignments.zip)
+- [C 程序设计期末复习题源码（51 份，ZIP）](../../assets/resources/courses/c-programming/c-programming-final-review.zip)
+- [C 程序设计指针进阶练习源码（9 份，ZIP）](../../assets/resources/courses/c-programming/c-programming-advanced-pointers.zip)
+
+### 历年试题
+
+- [C 程序设计理论历年试题（2006—2014，ZIP）](../../assets/resources/courses/c-programming/c-programming-past-exams-2006-2014.zip)
+
+### 参考教材
+
+《C 语言程序设计（第 4 版）》，何钦铭、颜晖
